@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 100px;
+}
+
+.container {
+    margin: 0 auto; /*usada para resumir todos os lados e direcões e dai centraliza o conteudo*/
+    background-color: rgb(255, 205, 247);
+    height: 300px;
+    width: 250px;
+}
+
+#cabecalho{
+    font-size: 14px;
+    background-color: blueviolet;
+    color:aliceblue;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: capitalize; /*transforma as letras em maiusculo ou minusculo*/
+}
+
+.senha a{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.senha a:hover{
+    color: purple;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    color:white;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+form input {
+    border: 1px solid purple;
+    border-radius:  5px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 90%;
+}
+
+form input[placeholder] {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 3px:
+} 
+
+form input[type=submit] {
+    background-color:blueviolet;
+    color:white;
+    width: 90%;
+    height: 25px;
+    padding-top: 3px;
+    margin-top: 10px;
+}
+
+form input:hover[type=submit] {
+    background-color: purple;
+}
+
+.formulario {
+    background-color: plum;
+    height: 90%;
+    padding-left: 10px;
+}
+
+form {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+footer{
+    margin-left: 10px;
+    margin-top: 300px;
+    color: purple;
+    font-size: 10px;
+    
+    
+    
+}
